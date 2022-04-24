@@ -1,5 +1,7 @@
 package ar.edu.unju.fi.ejercicio3;
 
+import java.util.Arrays;
+
 //ee
 public class Alumno {
 	private String nombre;
@@ -31,8 +33,24 @@ public class Alumno {
 		this.notas = notas;
 	}
 	
-	//metodo para calcular promedio
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	@Override
+	public String toString() {
+		return "Alumno [nombre=" + nombre + ", apellido=" + apellido + ", LU=" + LU + ", notas="
+				+ Arrays.toString(notas) + "]";
+	}
+	
+	
+	//metodo para calcular promedio
 	public int promedio(double[]notas) {
 		 int prome=0;
 		 double cont=0;
